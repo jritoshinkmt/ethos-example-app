@@ -19,7 +19,7 @@ const Home: NextPage = () => {
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
               <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
-                Connected to wallet
+                Welcome Suinami!
               </h2>
               <code>{wallet.address}</code>
               <div className="place-content-center text-base font-medium text-ethos-primary space-x-1">
