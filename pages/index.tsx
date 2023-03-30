@@ -21,16 +21,6 @@ const Home: NextPage = () => {
               <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
                 Welcome Suinami!
               </h2>
-              <code>{wallet.address}</code>
-              <div className="place-content-center text-base font-medium text-ethos-primary space-x-1">
-                <div>
-                  Wallet balance: <code>{wallet.contents?.suiBalance.toString()}</code>{" "}
-                  Mist
-                </div>
-                <div className="text-xs text-gray-500">
-                  (1 sui is 10^9 Mist)
-                </div>
-              </div>
             </div>
             <div className="flex flex-col gap-4">
               First, fund this wallet from the Sui faucet:
